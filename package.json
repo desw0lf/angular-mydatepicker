@@ -22,7 +22,8 @@
     "build-lib": "node scripts/delete-dist-folder.js && ng build AngularMyDatePicker --configuration production && node scripts/copy-artifacts.js",
     "build-example": "ng build --base-href=\"https://nodro7.github.io/angular-mydatepicker/\"",
     "test-lib": "node scripts/delete-test-output-folder.js && ng test --code-coverage=true AngularMyDatePicker",
-    "lint-lib": "ng lint AngularMyDatePicker"
+    "lint-lib": "ng lint AngularMyDatePicker",
+    "pub": "cd dist/legacy-angular-mydatepicker && npm publish --access=public"
   },
   "private": true,
   "dependencies": {

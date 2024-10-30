@@ -1,6 +1,6 @@
 {
-  "name": "@nodro7/angular-mydatepicker",
-  "version": "0.12.4",
+  "name": "legacy-angular-mydatepicker",
+  "version": "14.0.0",
   "description": "Angular datepicker",
   "keywords": [
     "angular",
