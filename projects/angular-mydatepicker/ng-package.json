@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/angular-mydatepicker",
+  "dest": "../../dist/legacy-angular-mydatepicker",
   "lib": {
     "entryFile": "src/public-api.ts"
   }
